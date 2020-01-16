@@ -15,7 +15,7 @@
     - name: create container
       docker_container:
         name: container_by_jenkins
-        image: op-azmi/apache-ubuntu:latest
+        image: 10293847561029384756/apache-ubuntu:latest
         state: started
         published_ports:
           - 9000:80
